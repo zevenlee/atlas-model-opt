@@ -1,0 +1,1 @@
+./classify/data/ILSVRC2012_val/n01796340/ILSVRC2012_val_00047258.JPEG	ptarmigan	['ptarmigan']	True

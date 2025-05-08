@@ -1,0 +1,2 @@
+2025-05-08 10:25:54,344 - WARNING - [AMCT]:[AMCT]: amct custom op library is empty, build it first.
+2025-05-08 10:25:54,349 - WARNING - [AMCT]:[AMCT]: both batch num and config file are not set, set to default value: 1

@@ -1,0 +1,92 @@
+2025-03-17 23:16:35,530 - WARNING - [AMCT]:[AMCT]: both batch num and config file are not set, set to default value: 1
+2025-03-17 23:16:38,362 - INFO - [AMCT]:[Config]: Generate config file:/home/HwHiAiUser/amct/amct/amct_onnx/cmd/33010_20250317231635/quant_config.json success!
+2025-03-17 23:16:38,362 - INFO - [AMCT]:[create_quant_config]: Update onnx model:
+2025-03-17 23:16:38,363 - INFO - [AMCT]:[Graph]: Doing whole model dump...
+2025-03-17 23:16:42,574 - INFO - [AMCT]:[Utils]: The model file is saved in /home/HwHiAiUser/amct/amct/amct_onnx/cmd/33010_20250317231635/updated_model.onnx
+2025-03-17 23:16:42,575 - INFO - [AMCT]:[create_quant_config]: Create quant config file /home/HwHiAiUser/amct/amct/amct_onnx/cmd/33010_20250317231635/quant_config.json success.
+2025-03-17 23:16:48,695 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.transpose_fold_pass.TransposeFoldPass'>
+2025-03-17 23:16:48,705 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.adjust_input_index_pass.AdjustInputIndexPass'>
+2025-03-17 23:16:48,712 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.conv_add_bias_fusion.ConvAddBiasFusionPass'>
+2025-03-17 23:16:48,720 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.bn_mul_fusion_pass.BnMulFusionPass'>
+2025-03-17 23:16:48,727 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.bn_add_fusion_pass.BnAddFusionPass'>
+2025-03-17 23:16:48,734 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.conv_bn_fusion_pass.ConvBnFusionPass'>
+2025-03-17 23:16:48,741 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.apply_dmq_balancer_pass.ApplyDMQBalancerPass'>
+2025-03-17 23:16:48,748 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.weight_calibration.WeightsCalibrationPass'>
+2025-03-17 23:17:21,161 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.insert_act_calibration.InsertActCalibrationPass'>
+2025-03-17 23:17:26,056 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.set_fusion_info.SetFusionInfoPass'>
+2025-03-17 23:17:26,059 - INFO - [AMCT]:[Graph]: Doing whole model dump...
+2025-03-17 23:17:37,485 - INFO - [AMCT]:[Utils]: The model file is saved in /home/HwHiAiUser/amct/amct/amct_onnx/cmd/33010_20250317231635/modified_model.onnx
+2025-03-17 23:17:44,419 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,429 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,431 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,432 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,434 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,435 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,437 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,438 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,440 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,441 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,443 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,444 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,446 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,447 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,449 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,451 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,452 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,454 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,456 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,457 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,459 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,461 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,462 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,464 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,466 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,468 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,469 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,472 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,475 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,477 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,479 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,481 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,483 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,485 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,487 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,489 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,491 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,494 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,496 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,498 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,500 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,502 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,504 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,506 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,508 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,511 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,514 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,518 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,520 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,523 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,527 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,529 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,532 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,535 - WARNING - [AMCT]:[AMCT]: fakequant_precision_mode does not exist in the record file
+2025-03-17 23:17:44,539 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.update_fusion_info.UpdateFusionInfoPass'>
+2025-03-17 23:17:44,540 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.delete_bypass_node_pass.DeleteActCalibrationPass'>
+2025-03-17 23:17:44,598 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.gemm_transb_optimize_pass.GemmTransBOptimizePass'>
+2025-03-17 23:17:46,634 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.insert_quant_pass.InsertQuantPass'>
+2025-03-17 23:17:46,717 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.insert_dequant_pass.InsertDequantPass'>
+2025-03-17 23:17:47,178 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.mult_output_with_quant_optimizer.MultQuantOptimizerPass'>
+2025-03-17 23:17:47,196 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.quant_fusion_pass.QuantFusionPass'>
+2025-03-17 23:17:47,222 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.weight_quant_pass.WeightQuantPass'>
+2025-03-17 23:18:14,979 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.bias_quant_pass.BiasQuantPass'>
+2025-03-17 23:18:15,075 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.gen_fusion_json.GenFusionJsonPass'>
+2025-03-17 23:18:15,238 - INFO - [AMCT]:[Graph]: Doing whole model dump...
+2025-03-17 23:18:15,460 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.replace_rnn_pass.ReplaceRNNPass'>
+2025-03-17 23:18:15,479 - INFO - [AMCT]:[Graph]: Doing whole model dump...
+2025-03-17 23:18:15,730 - INFO - [AMCT]:[Utils]: The model file is saved in /home/HwHiAiUser/amct/amct/amct_onnx/cmd/result/resnet50_sq_deploy_model.onnx
+2025-03-17 23:18:15,732 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.insert_rnn_fake_quant_pass.InsertRNNFakeQuantPass'>
+2025-03-17 23:18:15,763 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.update_ascendop_pass.UpdateAscendOpPass'>
+2025-03-17 23:18:15,793 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.weight_fakequant_pass.WeightFakequantPass'>
+2025-03-17 23:18:29,745 - INFO - [AMCT]:[Optimizer]: Do <class 'amct_onnx.optimizer.bias_fakequant_pass.BiasFakequantPass'>
+2025-03-17 23:18:29,838 - INFO - [AMCT]:[Graph]: Doing whole model dump...
+2025-03-17 23:18:41,948 - INFO - [AMCT]:[Utils]: The model file is saved in /home/HwHiAiUser/amct/amct/amct_onnx/cmd/result/resnet50_sq_fake_quant_model.onnx
